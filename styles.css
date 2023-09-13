@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  animation: backgroundAnimation 10s infinite alternate; /* Use an animation */
+}
+
+.calculator {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 30px; /* Increase padding for a larger calculator */
+  border-radius: 10px; /* Increase border radius for rounded corners */
+  box-shadow: 0 0 10px #f0b90b;
+  text-align: center;
+}
+
+.binance-logo {
+  width: 150px; /* Increase logo size */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 30px; /* Increase header font size */
+  margin-bottom: 20px;
+  color: #f0b90b; /* Binance yellow */
+}
+
+.input-group {
+  margin-bottom: 20px; /* Increase margin between input groups */
+}
+
+label {
+  display: block;
+  margin-bottom: 10px; /* Increase margin between labels */
+  color: #000; /* Black text */
+  font-size: 18px; /* Increase label font size */
+}
+
+input {
+  width: 100%;
+  padding: 10px; /* Increase input padding */
+  border: none; /* Remove input border */
+  border-radius: 5px; /* Increase input border radius */
+  font-size: 18px; /* Increase input font size */
+  transition: border-color 0.3s; /* Add transition for border color change */
+}
+
+/* Add this rule to change the border color to yellow when focused */
+input:focus {
+  border-color: #f0b90b; /* Yellow */
+}
+
+button {
+  background-color: #f0b90b; /* Binance yellow */
+  color: #fff;
+  border: none;
+  border-radius: 5px; /* Increase button border radius */
+  padding: 15px 30px; /* Increase button padding */
+  cursor: pointer;
+  font-size: 20px; /* Increase button font size */
+}
+
+button:hover {
+  background-color: #e1a407; /* Darker Binance yellow on hover */
+}
